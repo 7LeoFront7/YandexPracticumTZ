@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Header from './assets/components/header/Header'
-import {Gallerypage} from './assets/pages/gallery'
+import Gallery from './assets/components/gallery/Gallery'
 
 import './global.css'
 
@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
     <div className='wrapper'>
        <Header />
-        <Gallerypage/>
+        <Gallery/>
     </div>
   
   </React.StrictMode>
