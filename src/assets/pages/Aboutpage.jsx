@@ -15,7 +15,7 @@ function Aboutpage() {
                </p>
             </div>
             <div className={style.about__right}>
-            <img src="./mestory.jpg" alt="me" />
+            <img src="mestory.jpg" alt="me" />
             </div>
         </div>
     );
