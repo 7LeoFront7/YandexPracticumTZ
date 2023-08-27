@@ -28,7 +28,7 @@ function Header() {
     <div className={burger ? `burger open` : `burger`}>
     <div className='burger__wrapper'>
             <div className="burger_form">
-            <Link onClick={closeBurger} className='burger__link' to="/">Моя галерея</Link>
+            <Link onClick={closeBurger} className='burger__link' to="/YandexPracticumTZ">Моя галерея</Link>
             <Link onClick={closeBurger} className='burger__link' to="/about">Обо мне</Link>
             <Link onClick={closeBurger} className='burger__link' to="/screencast">Скринкаст</Link>
             <Link onClick={closeBurger} className='burger__link' to="/js">JavaScript</Link>
@@ -44,10 +44,10 @@ function Header() {
     <div className={style.header}>
         <div className={style.header__container}>
         <div className={style.logo}>
-            <Link className={style.logo_link} to="/">Nazarov<span>WEB</span></Link>
+            <Link className={style.logo_link} to="/YandexPracticumTZ">Nazarov<span>WEB</span></Link>
         </div>
         <div className={style.nav}>
-            <Link className={style.nav_link} to="/">Моя галерея</Link>
+            <Link className={style.nav_link} to="/YandexPracticumTZ">Моя галерея</Link>
             <Link className={style.nav_link} to="/about">Обо мне</Link>
             <Link className={style.nav_link} to="/screencast">Скринкаст</Link>
             <Link className={style.nav_link} to="/js">JavaScript</Link>
@@ -63,7 +63,7 @@ function Header() {
     </div>
 
     <Routes>
-        <Route path='/' element={<Gallerypage/>}></Route>
+        <Route path='/YandexPracticumTZ' element={<Gallerypage/>}></Route>
         <Route path='/about' element={<Aboutpage/>}></Route>
         <Route path='/js' element={<Powerjspage/>}></Route>
         <Route path='/screencast' element={<Screencastpage/>}></Route>

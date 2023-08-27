@@ -5,7 +5,7 @@ function Screencastpage() {
         <div className={style.screencast}>
         
         <div className={style.screencast__right}>
-        <img src="./mestory.jpg" alt="me" />
+        <video controls='true' src="./2.mp4"></video>
         </div>
         <div className={style.screencast__left}>
         <h1>Делюсь с Вами <span>интересной фишкой</span> из <span>CSS!</span></h1>

@@ -11,7 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
     <div className='wrapper'>
        <Header />
-      Привет! Этот проект сделан для Яндекс.Практикум.
     </div>
   
   </React.StrictMode>
